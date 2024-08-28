@@ -1,0 +1,9 @@
+---
+layout: front
+title: singlebitupset
+---
+
+{% assign pages = site.pages | where_exp: 'page', 'page.tag == "fefe"' %}
+{% for page in pages %}
+    <a href="{{page.url}}" class="title"><span class="manipulatedTextDisplay">{{page.title}}</span></a>
+{% endfor %}

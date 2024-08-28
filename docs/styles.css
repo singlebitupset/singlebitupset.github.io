@@ -1,0 +1,96 @@
+html {
+    background-color: #000000;
+    color: #ddd;
+}
+
+body {
+    font-family: 'Menlo', monospace;
+    margin: 0;
+    padding: 5px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tabs {
+    display: flex;
+    padding: 10px 0 10px 0;
+    background-color: #000000;
+    /* padding: 15px; */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.tab-button {
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    padding: 0px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-family: 'Menlo', monospace;
+    color: #ddd;
+}
+
+.title-area-frontpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title-area {
+    text-align: center;
+    padding: 0;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.title-quote {
+    padding: 10px 0 0 0;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.content-region {
+    padding: 0px;
+}
+
+a {
+    color: #ddd;
+    text-decoration: none;
+    position: relative;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #111;
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #111;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #222;
+}
