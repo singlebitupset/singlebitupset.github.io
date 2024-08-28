@@ -24,7 +24,7 @@
 
         function performSingleCharacterRotation(currentElement, rotateIndex) {
             currentElement.innerText = currentElement.innerText.substring(0, rotateIndex) + 
-                Math.floor(Math.random() * 16).toString(16) + 
+            Math.floor(Math.random() * 2).toString() +
                 currentElement.innerText.substring(rotateIndex + 1);
         }
 
