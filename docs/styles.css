@@ -1,6 +1,10 @@
+:root {
+  color-scheme: light dark;
+}
+
 html {
-    background-color: #000000;
-    color: #ddd;
+    background-color: light-dark(#ddd, #000);;
+    color: light-dark(#000, #ddd);
 }
 
 body {
